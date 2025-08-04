@@ -21,7 +21,7 @@ frames are connected by transformations (position and rotation) relative to anot
 if there is a transformation from the world to the base and a transformations from the base to a hand then tf can give you the transformations from the world to the hand
 this is like a reverse version of how the unity game engine’s game object tree works
 
-!speculation: the top frame in our case is the "/map" or "/world" frame representing its actual real world and ground 
+!speculation: the top frame in our case is the "/map" or "/world" frame representing its actual real world and ground, it is published by some node relating to the pal_navigation_sm and pal_map_manager ros pagkges
 
 the frame representing the robots relative to the world is either "base_link" or "base_footprint"
 
