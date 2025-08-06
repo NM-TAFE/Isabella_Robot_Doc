@@ -13,7 +13,10 @@ The localizer is responsible for ARI's self-localization using sensor data (e.g.
 
 ## Details
 
-- Uses /opt/pal/gallium/share/ari_2dnav as the main ROS package.
+the localizer nodes is a wrapper or modification of
+https://github.com/raulmur/ORB_SLAM2
+
+- Uses /opt/pal/gallium/share/ari_2dnav in an unknown capacity 
 - !speculation: possibly related to pal_navigation_sm and pal_map_manager ros pakages
 - Startup managed by pal_startup_manager and pal_startup_node.
 - Relies on calibration data from /etc/calibration_data/ and ROS parameters.
