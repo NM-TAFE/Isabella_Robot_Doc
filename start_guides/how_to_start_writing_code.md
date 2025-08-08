@@ -1,6 +1,8 @@
 ## how to start writing code
 
-related article
+related article:
+  https://wiki.ros.org/catkin/Tutorials/create_a_workspace
+  https://wiki.ros.org/catkin/Tutorials/CreatingPackage
 
 to start making code that works with ros you have to create what's called a catkin workspace. catkin the build/compilation tool used by ros1 and a workspace is a folder that has project setup environment like a visual studio project file.
 
