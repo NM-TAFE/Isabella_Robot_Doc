@@ -46,3 +46,19 @@ If you experience asymmetric connectivity (e.g., robot can ping laptop but not v
 - Verify correct IP addresses and subnet masks.
 - Use `ifconfig` or `ip addr` to inspect network interfaces.
 - Use `ping` and `traceroute` for connectivity testing. 
+
+
+
+## modifications
+to gain more control over the internal networking of the robot system we chose to install our own router in-place of a networking switch that came pre-installed. previously the ari-20c main mother-board acted as the router and dhcp server, with our router now in place we have disabled the dhcp daemon running on ari-20c the following is the steps taken to disable the "dhcp daemon"
+
+```bash
+pal@ari-20c:~$ su
+pal@ari-20c:~$ rw
+pal@ari-20c:~$ chroot /ro
+pal@ari-20c:~$ systemctl disable isc-dhcp-server.service
+pal@ari-20c:~$ exit
+pal@ari-20c:~$ ro
+pal@ari-20c:~$ exit
+pal@ari-20c:~$ sudo reboot
+```
