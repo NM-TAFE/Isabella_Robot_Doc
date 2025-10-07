@@ -57,6 +57,7 @@ pal@ari-20c:~$ su
 pal@ari-20c:~$ rw
 pal@ari-20c:~$ chroot /ro
 pal@ari-20c:~$ systemctl disable isc-dhcp-server.service
+pal@ari-20c:~$ systemctl mask isc-dhcp-server.service
 pal@ari-20c:~$ exit
 pal@ari-20c:~$ ro
 pal@ari-20c:~$ exit
