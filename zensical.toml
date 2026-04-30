@@ -131,3 +131,26 @@ path = "networking/Ports-and-Networking.md"
 [[nav.networking.children]]
 name = "Docker Setup"
 path = "networking/docker.md"
+
+[nav.upgrades]
+name = "Upgrades & Migration"
+
+[[nav.upgrades.children]]
+name = "Overview"
+path = "upgrades/overview.md"
+
+[[nav.upgrades.children]]
+name = "Pre-Upgrade Checklist"
+path = "upgrades/pre-upgrade-checklist.md"
+
+[[nav.upgrades.children]]
+name = "Upgrade Guide"
+path = "upgrades/upgrade-guide.md"
+
+[[nav.upgrades.children]]
+name = "Component Updates"
+path = "upgrades/component-updates.md"
+
+[[nav.upgrades.children]]
+name = "Post-Upgrade Validation"
+path = "upgrades/post-upgrade-validation.md"

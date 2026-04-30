@@ -8,6 +8,7 @@ Welcome to the comprehensive documentation for the **Isabella Robot** project. T
 - **[Hardware](#hardware)** - Device specifications and setup
 - **[Software](#software)** - System architecture and components
 - **[Networking](#networking)** - Ports and Docker configuration
+- **[Upgrades & Migration](#upgrades--migration)** - ARI 23.12 → 25.01 upgrade guide
 
 ## Getting Started
 
@@ -48,6 +49,16 @@ Network configuration and deployment:
 
 - [Ports & Networking](networking/Ports-and-Networking.md)
 - [Docker Setup](networking/docker.md)
+
+## Upgrades & Migration
+
+Prepare for ARI OS updates:
+
+- [Overview](upgrades/overview.md) - What's changing from 23.12 to 25.01
+- [Pre-Upgrade Checklist](upgrades/pre-upgrade-checklist.md) - Backup and verification steps
+- [Upgrade Guide](upgrades/upgrade-guide.md) - Step-by-step installation instructions
+- [Component Updates](upgrades/component-updates.md) - Isabella-specific impacts
+- [Post-Upgrade Validation](upgrades/post-upgrade-validation.md) - Testing and verification
 
 ## Related Repositories
 
