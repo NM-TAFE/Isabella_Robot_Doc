@@ -481,10 +481,20 @@ window.ollamaAPI.onLiveModeTranscript(({ text, type }) => {
 - **[Social Perception](./Social-Perception.md)** - Visual context for responses
 - **[Respeaker](../hardware/Respeaker.md)** - Microphone array hardware
 
+## Repository
+
+**Source Code:** [prgrobots/Rpi-ollama-LLM](https://github.com/prgrobots/Rpi-ollama-LLM) (Private)
+
+This is the Ollama Electron Manager with Live Mode implementation. The repository includes:
+- Live Mode controller (`live_mode.js`)
+- Electron app shell (main.js, preload.js, renderer.js)
+- WebSocket integration for STT
+- Model management interface
+
 ## Support
 
 For issues or questions:
 - Check [Troubleshooting](#troubleshooting) section
 - Review logs in Activity Log (UI)
 - Verify network connectivity and server URLs
-- Check GitHub repository: `Rpi-ollama-LLM`
+- Access the [source repository](https://github.com/prgrobots/Rpi-ollama-LLM) for code details

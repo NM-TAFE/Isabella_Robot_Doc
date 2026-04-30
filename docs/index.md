@@ -49,6 +49,11 @@ Network configuration and deployment:
 - [Ports & Networking](networking/Ports-and-Networking.md)
 - [Docker Setup](networking/docker.md)
 
+## Related Repositories
+
+- **Isabella Robot Doc** (Public) - This wiki: [NM-TAFE/Isabella_Robot_Doc](https://github.com/NM-TAFE/Isabella_Robot_Doc)
+- **Rpi-ollama-LLM** (Private) - Live Mode implementation: [prgrobots/Rpi-ollama-LLM](https://github.com/prgrobots/Rpi-ollama-LLM)
+
 ## Support
 
 For issues, questions, or contributions, visit the [GitHub repository](https://github.com/NM-TAFE/Isabella_Robot_Doc).
