@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://nm-tafe.github.io/Isabella_Robot_Doc/getting-started/test/">
+        <link rel="canonical" href="https://nm-tafe.github.io/Isabella_Robot_Doc/upgrades/overview/">
       
       
-        <link rel="prev" href="../quick-start/">
+        <link rel="prev" href="../component-updates/">
       
       
-        <link rel="next" href="../../guides/presentation-screen/">
+        <link rel="next" href="../post-upgrade-validation/">
       
       
         
@@ -27,7 +27,7 @@
     
     
       
-        <title>Testing Guide - Isabella Robot Documentation</title>
+        <title>ARI OS 25.01 Upgrade Overview - Isabella Robot Documentation</title>
       
     
     
@@ -71,7 +71,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#testing-guide" class="md-skip">
+        <a href="#ari-os-2501-upgrade-overview" class="md-skip">
           Skip to content
         </a>
       
@@ -107,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Testing Guide
+              ARI OS 25.01 Upgrade Overview
             
           </span>
         </div>
@@ -334,20 +334,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -368,7 +366,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -386,7 +384,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../overview/" class="md-nav__link">
+      <a href="../../getting-started/overview/" class="md-nav__link">
         
   
   
@@ -414,7 +412,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../quick-start/" class="md-nav__link">
+      <a href="../../getting-started/quick-start/" class="md-nav__link">
         
   
   
@@ -439,37 +437,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Testing Guide
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="././" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../getting-started/test/" class="md-nav__link">
         
   
   
@@ -485,132 +456,6 @@
   
 
       </a>
-      
-        
-
-
-<nav class="md-nav md-nav--secondary" aria-label="On this page">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      On this page
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#running-tests" class="md-nav__link">
-    <span class="md-ellipsis">
-      <span class="md-typeset">
-        Running Tests
-      </span>
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Running Tests">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
-    <span class="md-ellipsis">
-      <span class="md-typeset">
-        Prerequisites
-      </span>
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#unit-tests" class="md-nav__link">
-    <span class="md-ellipsis">
-      <span class="md-typeset">
-        Unit Tests
-      </span>
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#integration-tests" class="md-nav__link">
-    <span class="md-ellipsis">
-      <span class="md-typeset">
-        Integration Tests
-      </span>
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#test-coverage" class="md-nav__link">
-    <span class="md-ellipsis">
-      <span class="md-typeset">
-        Test Coverage
-      </span>
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#test-structure" class="md-nav__link">
-    <span class="md-ellipsis">
-      <span class="md-typeset">
-        Test Structure
-      </span>
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#continuous-integration" class="md-nav__link">
-    <span class="md-ellipsis">
-      <span class="md-typeset">
-        Continuous Integration
-      </span>
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#troubleshooting" class="md-nav__link">
-    <span class="md-ellipsis">
-      <span class="md-typeset">
-        Troubleshooting
-      </span>
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#contributing-tests" class="md-nav__link">
-    <span class="md-ellipsis">
-      <span class="md-typeset">
-        Contributing Tests
-      </span>
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1207,18 +1052,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
         
           
           <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
@@ -1239,7 +1086,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1257,7 +1104,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../upgrades/component-updates/" class="md-nav__link">
+      <a href="../component-updates/" class="md-nav__link">
         
   
   
@@ -1282,10 +1129,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../upgrades/overview/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ARI OS 25.01 Upgrade Overview
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="././" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1301,6 +1175,310 @@
   
 
       </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#current-state" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Current State
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#target-state" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Target State
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#whats-new-in-ari-2501" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        What's New in ARI 25.01
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What&#x27;s New in ARI 25.01">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-improvements" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Key Improvements
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-features-by-category" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        New Features by Category
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#impact-on-isabella-customizations" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Impact on Isabella Customizations
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Impact on Isabella Customizations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#affected-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Affected Components
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Affected Components">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#live-mode-stt-llm-tts" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        ✅ Live Mode (STT → LLM → TTS)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#llm-server-ollama-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        ✅ LLM Server &amp; Ollama Integration
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#social-perception" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        ✅ Social Perception
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ros-nodes-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        ✅ ROS Nodes &amp; Services
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hardware-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        ✅ Hardware Integration
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#component-compatibility-matrix" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Component Compatibility Matrix
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#upgrade-path" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Upgrade Path
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Upgrade Path">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#recommended-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Recommended Approach
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#timeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Timeline
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#official-pal-documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Official PAL Documentation
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#known-issues-considerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Known Issues &amp; Considerations
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Known Issues &amp; Considerations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#from-pal-robotics" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        From PAL Robotics
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#for-isabella" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        For Isabella
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quick-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Quick Checklist
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Next Steps
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#support" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Support
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1313,7 +1491,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../upgrades/post-upgrade-validation/" class="md-nav__link">
+      <a href="../post-upgrade-validation/" class="md-nav__link">
         
   
   
@@ -1341,7 +1519,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../upgrades/pre-upgrade-checklist/" class="md-nav__link">
+      <a href="../pre-upgrade-checklist/" class="md-nav__link">
         
   
   
@@ -1369,7 +1547,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../upgrades/upgrade-guide/" class="md-nav__link">
+      <a href="../upgrade-guide/" class="md-nav__link">
         
   
   
@@ -1438,22 +1616,44 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#running-tests" class="md-nav__link">
+  <a href="#current-state" class="md-nav__link">
     <span class="md-ellipsis">
       <span class="md-typeset">
-        Running Tests
+        Current State
       </span>
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Running Tests">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#target-state" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Target State
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#whats-new-in-ari-2501" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        What's New in ARI 25.01
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What&#x27;s New in ARI 25.01">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
+  <a href="#key-improvements" class="md-nav__link">
     <span class="md-ellipsis">
       <span class="md-typeset">
-        Prerequisites
+        Key Improvements
       </span>
     </span>
   </a>
@@ -1461,32 +1661,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#unit-tests" class="md-nav__link">
+  <a href="#new-features-by-category" class="md-nav__link">
     <span class="md-ellipsis">
       <span class="md-typeset">
-        Unit Tests
-      </span>
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#integration-tests" class="md-nav__link">
-    <span class="md-ellipsis">
-      <span class="md-typeset">
-        Integration Tests
-      </span>
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#test-coverage" class="md-nav__link">
-    <span class="md-ellipsis">
-      <span class="md-typeset">
-        Test Coverage
+        New Features by Category
       </span>
     </span>
   </a>
@@ -1499,10 +1677,149 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#test-structure" class="md-nav__link">
+  <a href="#impact-on-isabella-customizations" class="md-nav__link">
     <span class="md-ellipsis">
       <span class="md-typeset">
-        Test Structure
+        Impact on Isabella Customizations
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Impact on Isabella Customizations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#affected-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Affected Components
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Affected Components">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#live-mode-stt-llm-tts" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        ✅ Live Mode (STT → LLM → TTS)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#llm-server-ollama-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        ✅ LLM Server &amp; Ollama Integration
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#social-perception" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        ✅ Social Perception
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ros-nodes-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        ✅ ROS Nodes &amp; Services
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hardware-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        ✅ Hardware Integration
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#component-compatibility-matrix" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Component Compatibility Matrix
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#upgrade-path" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Upgrade Path
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Upgrade Path">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#recommended-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Recommended Approach
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#timeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Timeline
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#official-pal-documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Official PAL Documentation
       </span>
     </span>
   </a>
@@ -1510,10 +1827,49 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#continuous-integration" class="md-nav__link">
+  <a href="#known-issues-considerations" class="md-nav__link">
     <span class="md-ellipsis">
       <span class="md-typeset">
-        Continuous Integration
+        Known Issues &amp; Considerations
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Known Issues &amp; Considerations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#from-pal-robotics" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        From PAL Robotics
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#for-isabella" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        For Isabella
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quick-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Quick Checklist
       </span>
     </span>
   </a>
@@ -1521,10 +1877,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#troubleshooting" class="md-nav__link">
+  <a href="#next-steps" class="md-nav__link">
     <span class="md-ellipsis">
       <span class="md-typeset">
-        Troubleshooting
+        Next Steps
       </span>
     </span>
   </a>
@@ -1532,10 +1888,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#contributing-tests" class="md-nav__link">
+  <a href="#support" class="md-nav__link">
     <span class="md-ellipsis">
       <span class="md-typeset">
-        Contributing Tests
+        Support
       </span>
     </span>
   </a>
@@ -1560,53 +1916,175 @@
   
 
 
-<h1 id="testing-guide">Testing Guide<a class="headerlink" href="#testing-guide" title="Permanent link">&para;</a></h1>
-<h2 id="running-tests">Running Tests<a class="headerlink" href="#running-tests" title="Permanent link">&para;</a></h2>
-<p>Isabella Robot includes comprehensive test suites for validation and verification.</p>
-<h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h3>
-<p>Ensure you have the following installed:</p>
+<h1 id="ari-os-2501-upgrade-overview">ARI OS 25.01 Upgrade Overview<a class="headerlink" href="#ari-os-2501-upgrade-overview" title="Permanent link">&para;</a></h1>
+<h2 id="current-state">Current State<a class="headerlink" href="#current-state" title="Permanent link">&para;</a></h2>
+<p>Isabella is currently running on <strong>ARI OS 23.12</strong> (PAL Robotics SDK version <code>pal-sdk-23.12</code>).</p>
+<h2 id="target-state">Target State<a class="headerlink" href="#target-state" title="Permanent link">&para;</a></h2>
+<p>Upgrade to <strong>ARI OS 25.01</strong> with latest PAL Robotics features and improvements.</p>
+<h2 id="whats-new-in-ari-2501">What's New in ARI 25.01<a class="headerlink" href="#whats-new-in-ari-2501" title="Permanent link">&para;</a></h2>
+<h3 id="key-improvements">Key Improvements<a class="headerlink" href="#key-improvements" title="Permanent link">&para;</a></h3>
 <ul>
-<li>pytest</li>
-<li>unittest (included with Python)</li>
-<li>Docker (for integration tests)</li>
+<li><strong>ROS 2 Humble</strong> - Continued support and improvements</li>
+<li><strong>Web User Interface</strong> - Enhanced diagnostics panel</li>
+<li><strong>Docker Development</strong> - Streamlined developer workflow with official Docker images</li>
+<li><strong>System Recovery</strong> - ISO image available for factory reset</li>
+<li><strong>Hardware Support</strong> - Expanded sensors and capabilities</li>
+<li><strong>Performance</strong> - Various optimizations</li>
 </ul>
-<h3 id="unit-tests">Unit Tests<a class="headerlink" href="#unit-tests" title="Permanent link">&para;</a></h3>
-<p>Run all unit tests:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>pytest<span class="w"> </span>tests/unit/
-</span></code></pre></div>
-<p>Run specific test file:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>pytest<span class="w"> </span>tests/unit/test_localizer.py<span class="w"> </span>-v
-</span></code></pre></div>
-<h3 id="integration-tests">Integration Tests<a class="headerlink" href="#integration-tests" title="Permanent link">&para;</a></h3>
-<p>Run integration tests (requires Docker):</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>pytest<span class="w"> </span>tests/integration/
-</span></code></pre></div>
-<h3 id="test-coverage">Test Coverage<a class="headerlink" href="#test-coverage" title="Permanent link">&para;</a></h3>
-<p>Generate coverage report:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>pytest<span class="w"> </span>--cov<span class="o">=</span>src<span class="w"> </span>tests/
-</span></code></pre></div>
-<h2 id="test-structure">Test Structure<a class="headerlink" href="#test-structure" title="Permanent link">&para;</a></h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>tests/
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>├── unit/              # Unit tests for individual components
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>├── integration/       # Integration tests for multiple systems
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>└── fixtures/          # Test data and configurations
-</span></code></pre></div>
-<h2 id="continuous-integration">Continuous Integration<a class="headerlink" href="#continuous-integration" title="Permanent link">&para;</a></h2>
-<p>Tests are automatically run on every pull request via GitHub Actions.</p>
-<h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">&para;</a></h2>
-<p>If tests fail:</p>
-<ol>
-<li>Ensure all dependencies are installed: <code>pip install -r requirements.txt</code></li>
-<li>Check Docker daemon is running: <code>docker status</code></li>
-<li>Review test output for specific error messages</li>
-<li>Check the <a href="https://github.com/NM-TAFE/Isabella_Robot_Doc">GitHub repository</a> for known issues</li>
-</ol>
-<h2 id="contributing-tests">Contributing Tests<a class="headerlink" href="#contributing-tests" title="Permanent link">&para;</a></h2>
-<p>When contributing new features, please include:</p>
+<h3 id="new-features-by-category">New Features by Category<a class="headerlink" href="#new-features-by-category" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>23.12</th>
+<th>25.01</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Navigation</strong></td>
+<td>✅</td>
+<td>✅ Enhanced</td>
+<td>Improved path planning</td>
+</tr>
+<tr>
+<td><strong>Gestures &amp; Motions</strong></td>
+<td>✅</td>
+<td>✅ Enhanced</td>
+<td>Additional motion primitives</td>
+</tr>
+<tr>
+<td><strong>Social Perception</strong></td>
+<td>✅</td>
+<td>✅ Enhanced</td>
+<td>Better person tracking</td>
+</tr>
+<tr>
+<td><strong>Communication</strong></td>
+<td>✅</td>
+<td>✅ Enhanced</td>
+<td>Speech improvements</td>
+</tr>
+<tr>
+<td><strong>Interaction</strong></td>
+<td>✅</td>
+<td>✅ Enhanced</td>
+<td>Better interaction flows</td>
+</tr>
+<tr>
+<td><strong>Web Dashboard</strong></td>
+<td>Limited</td>
+<td>✅ Full</td>
+<td>Comprehensive diagnostics</td>
+</tr>
+<tr>
+<td><strong>Simulation</strong></td>
+<td>✅</td>
+<td>✅</td>
+<td>Gazebo/RViz support</td>
+</tr>
+</tbody>
+</table>
+<h2 id="impact-on-isabella-customizations">Impact on Isabella Customizations<a class="headerlink" href="#impact-on-isabella-customizations" title="Permanent link">&para;</a></h2>
+<h3 id="affected-components">Affected Components<a class="headerlink" href="#affected-components" title="Permanent link">&para;</a></h3>
+<h4 id="live-mode-stt-llm-tts">✅ Live Mode (STT → LLM → TTS)<a class="headerlink" href="#live-mode-stt-llm-tts" title="Permanent link">&para;</a></h4>
 <ul>
-<li>Unit tests for new functions</li>
-<li>Integration tests for new systems</li>
-<li>Documentation of test procedures</li>
+<li><strong>Impact:</strong> Minor</li>
+<li><strong>Status:</strong> Compatible with ROS 2 Humble</li>
+<li><strong>Action:</strong> No code changes required, re-test after upgrade</li>
+</ul>
+<h4 id="llm-server-ollama-integration">✅ LLM Server &amp; Ollama Integration<a class="headerlink" href="#llm-server-ollama-integration" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Impact:</strong> Minimal</li>
+<li><strong>Status:</strong> Ollama runs independently, not affected by OS</li>
+<li><strong>Action:</strong> Verify network connectivity post-upgrade</li>
+</ul>
+<h4 id="social-perception">✅ Social Perception<a class="headerlink" href="#social-perception" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Impact:</strong> Potentially improved</li>
+<li><strong>Status:</strong> OS 25.01 has enhanced person tracking</li>
+<li><strong>Action:</strong> Test and benchmark improvements</li>
+</ul>
+<h4 id="ros-nodes-services">✅ ROS Nodes &amp; Services<a class="headerlink" href="#ros-nodes-services" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Impact:</strong> Low</li>
+<li><strong>Status:</strong> ROS 2 Humble compatibility maintained</li>
+<li><strong>Action:</strong> Verify topic subscriptions and publishers</li>
+</ul>
+<h4 id="hardware-integration">✅ Hardware Integration<a class="headerlink" href="#hardware-integration" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Impact:</strong> Low to Medium</li>
+<li><strong>Status:</strong> Same hardware (depth camera, LiDAR, Respeaker)</li>
+<li><strong>Action:</strong> Re-run hardware diagnostics</li>
+</ul>
+<h3 id="component-compatibility-matrix">Component Compatibility Matrix<a class="headerlink" href="#component-compatibility-matrix" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Component              | Compatibility | Action Required
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>-----------------------|---------------|------------------
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>Live Mode              | ✅ Compatible | Test only
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>Ollama/LLM             | ✅ Compatible | Network verification
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>Social Perception      | ✅ Compatible | Re-test (improved)
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>ROS Nodes              | ✅ Compatible | Verify connections
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>Hardware (Cameras)     | ✅ Compatible | Run diagnostics
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>Hardware (LiDAR)       | ✅ Compatible | Run diagnostics
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>Hardware (Respeaker)   | ✅ Compatible | Run diagnostics
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>Docker Environment     | ✅ Compatible | Rebuild image
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>Network Configuration  | ✅ Compatible | Re-configure if needed
+</span></code></pre></div>
+<h2 id="upgrade-path">Upgrade Path<a class="headerlink" href="#upgrade-path" title="Permanent link">&para;</a></h2>
+<h3 id="recommended-approach">Recommended Approach<a class="headerlink" href="#recommended-approach" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>Backup</strong> - Full system backup before upgrade</li>
+<li><strong>Test</strong> - Upgrade non-production instance first (if available)</li>
+<li><strong>Upgrade</strong> - Follow <a href=".././upgrade-guide/">Upgrade Guide</a></li>
+<li><strong>Validate</strong> - Run <a href=".././post-upgrade-validation/">Post-Upgrade Validation</a></li>
+<li><strong>Monitor</strong> - Watch diagnostics for 24 hours</li>
+</ol>
+<h3 id="timeline">Timeline<a class="headerlink" href="#timeline" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Pre-Upgrade Prep:</strong> 30-60 minutes</li>
+<li><strong>Upgrade Process:</strong> 45-90 minutes</li>
+<li><strong>Post-Upgrade Testing:</strong> 1-2 hours</li>
+<li><strong>Total:</strong> 2-4 hours</li>
+</ul>
+<h2 id="official-pal-documentation">Official PAL Documentation<a class="headerlink" href="#official-pal-documentation" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>ARI 25.01 Manual:</strong> <a href="https://docs.pal-robotics.com/25.01/ari.html">https://docs.pal-robotics.com/25.01/ari.html</a></li>
+<li><strong>ARI 23.12 Manual:</strong> <a href="https://docs.pal-robotics.com/sdk/23.12/">https://docs.pal-robotics.com/sdk/23.12/</a></li>
+<li><strong>Upgrade Documentation:</strong> <a href="https://docs.pal-robotics.com/25.01/management/">https://docs.pal-robotics.com/25.01/management/</a></li>
+</ul>
+<h2 id="known-issues-considerations">Known Issues &amp; Considerations<a class="headerlink" href="#known-issues-considerations" title="Permanent link">&para;</a></h2>
+<h3 id="from-pal-robotics">From PAL Robotics<a class="headerlink" href="#from-pal-robotics" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Diagnostics Bug:</strong> Higher-level diagnostics may show errors, but lower-level diagnostics will appear green. This is a known PAL issue (see <a href="https://github.com/ros/diagnostics/issues/297">GitHub issue</a>).</li>
+<li><strong>Node Discovery:</strong> First ROS 2 discovery can take up to 1 minute after boot.</li>
+</ul>
+<h3 id="for-isabella">For Isabella<a class="headerlink" href="#for-isabella" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Custom ROS nodes may require recompilation</li>
+<li>Docker image rebuild required for development environment</li>
+<li>Network configuration should be re-verified</li>
+</ul>
+<h2 id="quick-checklist">Quick Checklist<a class="headerlink" href="#quick-checklist" title="Permanent link">&para;</a></h2>
+<p>Before upgrading, verify:
+- [ ] Full system backup exists
+- [ ] All Isabella features documented and tested
+- [ ] Network configuration documented
+- [ ] Custom ROS packages backed up
+- [ ] Team notified of upgrade window
+- [ ] Post-upgrade testing plan ready</p>
+<h2 id="next-steps">Next Steps<a class="headerlink" href="#next-steps" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Review <a href=".././pre-upgrade-checklist/">Pre-Upgrade Checklist</a></li>
+<li>Follow <a href=".././upgrade-guide/">Upgrade Guide</a></li>
+<li>Complete <a href=".././post-upgrade-validation/">Post-Upgrade Validation</a></li>
+<li>Review <a href=".././component-updates/">Component Updates</a> for Isabella specifics</li>
+</ol>
+<h2 id="support">Support<a class="headerlink" href="#support" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>PAL Support:</strong> <a href="https://docs.pal-robotics.com/25.01/general/getting-support.html">https://docs.pal-robotics.com/25.01/general/getting-support.html</a></li>
+<li><strong>Isabella Docs:</strong> See related documentation pages</li>
+<li><strong>Troubleshooting:</strong> Check <a href=".././post-upgrade-validation/">Post-Upgrade Validation</a> troubleshooting section</li>
 </ul>
 
 

@@ -57,4 +57,19 @@
       <url>
         <loc>https://nm-tafe.github.io/Isabella_Robot_Doc/software/tf/</loc>
       </url>
+      <url>
+        <loc>https://nm-tafe.github.io/Isabella_Robot_Doc/upgrades/component-updates/</loc>
+      </url>
+      <url>
+        <loc>https://nm-tafe.github.io/Isabella_Robot_Doc/upgrades/overview/</loc>
+      </url>
+      <url>
+        <loc>https://nm-tafe.github.io/Isabella_Robot_Doc/upgrades/post-upgrade-validation/</loc>
+      </url>
+      <url>
+        <loc>https://nm-tafe.github.io/Isabella_Robot_Doc/upgrades/pre-upgrade-checklist/</loc>
+      </url>
+      <url>
+        <loc>https://nm-tafe.github.io/Isabella_Robot_Doc/upgrades/upgrade-guide/</loc>
+      </url>
 </urlset>
