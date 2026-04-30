@@ -8,6 +8,8 @@ The LLM Server hosts large language models, providing advanced conversational an
 
 👉 **See also:** [Live Mode (STT → LLM → TTS)](./Live-Mode.md) - for real-time autonomous conversation pipeline
 
+**Implementation Repository:** [prgrobots/Rpi-ollama-LLM](https://github.com/prgrobots/Rpi-ollama-LLM) (Private) - Electron app with Live Mode, model management, and WebSocket STT integration
+
 Note: This is distinct from the PAL RASA intent-based system.
 
 | info.           | Description |
