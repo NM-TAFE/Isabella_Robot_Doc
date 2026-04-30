@@ -1,5 +1,15 @@
 # LLM Server
 
+The LLM Server hosts large language models, providing advanced conversational and reasoning capabilities for real-time autonomous interactions.
+
+## Overview
+
+**Real Chatbot Implementation:** Live Mode enables real-time speech-to-text → LLM → text-to-speech conversations using Ollama models running on the LLM Server.
+
+👉 **See also:** [Live Mode (STT → LLM → TTS)](./Live-Mode.md) - for real-time autonomous conversation pipeline
+
+Note: This is distinct from the PAL RASA intent-based system.
+
 | info.           | Description |
 | --------------- | ----------- |
 | stock component | No         |

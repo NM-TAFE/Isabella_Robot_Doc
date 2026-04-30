@@ -477,7 +477,7 @@ window.ollamaAPI.onLiveModeTranscript(({ text, type }) => {
 
 ## Related Components
 
-- **[LLM Server](./LLM-Server.md)** - Ollama model management
+- **[Live Mode (STT → LLM → TTS)](./Live-Mode.md)** - Real-time autonomous conversation using Ollama
 - **[Social Perception](./Social-Perception.md)** - Visual context for responses
 - **[Respeaker](../hardware/Respeaker.md)** - Microphone array hardware
 
