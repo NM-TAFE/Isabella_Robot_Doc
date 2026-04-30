@@ -95,6 +95,10 @@ name = "LLM Server"
 path = "software/LLM-Server.md"
 
 [[nav.software.children]]
+name = "Live Mode (STT → LLM → TTS)"
+path = "software/Live-Mode.md"
+
+[[nav.software.children]]
 name = "Localizer"
 path = "software/Localizer.md"
 
