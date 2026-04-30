@@ -1,0 +1,129 @@
+[project]
+site_name = "Isabella Robot Documentation"
+site_description = "Comprehensive documentation for the Isabella Robot project"
+site_url = "https://nm-tafe.github.io/Isabella_Robot_Doc/"
+repo_url = "https://github.com/NM-TAFE/Isabella_Robot_Doc"
+repo_name = "Isabella_Robot_Doc"
+
+[theme]
+name = "material"
+
+[[theme.palette]]
+scheme = "default"
+primary = "blue"
+accent = "amber"
+
+[[theme.palette]]
+scheme = "slate"
+primary = "blue"
+accent = "amber"
+
+[plugins.search]
+lang = "en"
+
+[markdown_extensions.admonition]
+
+[markdown_extensions.attr_list]
+
+[markdown_extensions.codehilite]
+
+[markdown_extensions.meta]
+
+[markdown_extensions.pymdownx-emoji]
+
+[markdown_extensions.pymdownx-tasklist]
+custom_checkbox = true
+
+[markdown_extensions.pymdownx-highlight]
+use_pygments = true
+
+[markdown_extensions.pymdownx-superfences]
+
+[markdown_extensions.pymdownx-tabbed]
+alternate_style = true
+
+[markdown_extensions.toc]
+permalink = true
+
+[nav.home]
+name = "Home"
+path = "index.md"
+
+[nav.getting_started]
+name = "Getting Started"
+
+[[nav.getting_started.children]]
+name = "Overview"
+path = "getting-started/overview.md"
+
+[[nav.getting_started.children]]
+name = "Quick Start"
+path = "getting-started/quick-start.md"
+
+[[nav.getting_started.children]]
+name = "Test Guide"
+path = "getting-started/test.md"
+
+[nav.hardware]
+name = "Hardware"
+
+[[nav.hardware.children]]
+name = "Depth Camera"
+path = "hardware/Depth-Camera.md"
+
+[[nav.hardware.children]]
+name = "LiDAR"
+path = "hardware/Lidar.md"
+
+[[nav.hardware.children]]
+name = "Docking Station"
+path = "hardware/Docking-Station.md"
+
+[[nav.hardware.children]]
+name = "Respeaker"
+path = "hardware/Respeaker.md"
+
+[nav.software]
+name = "Software"
+
+[[nav.software.children]]
+name = "ROS Nodes & Services"
+path = "software/ROS-Nodes-and-Services.md"
+
+[[nav.software.children]]
+name = "LLM Server"
+path = "software/LLM-Server.md"
+
+[[nav.software.children]]
+name = "Localizer"
+path = "software/Localizer.md"
+
+[[nav.software.children]]
+name = "Social Perception"
+path = "software/Social-Perception.md"
+
+[[nav.software.children]]
+name = "Transform (TF)"
+path = "software/tf.md"
+
+[nav.architecture]
+name = "Architecture"
+
+[[nav.architecture.children]]
+name = "Intents"
+path = "architecture/Intents.md"
+
+[[nav.architecture.children]]
+name = "Filesystem & Persistence"
+path = "architecture/Filesystem-and-Persistence.md"
+
+[nav.networking]
+name = "Networking"
+
+[[nav.networking.children]]
+name = "Ports & Networking"
+path = "networking/Ports-and-Networking.md"
+
+[[nav.networking.children]]
+name = "Docker Setup"
+path = "networking/docker.md"
