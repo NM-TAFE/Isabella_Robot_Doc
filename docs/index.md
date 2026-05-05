@@ -63,6 +63,9 @@ Prepare for ARI OS updates:
 ## Related Repositories
 
 - **Isabella Robot Doc** (Public) - This wiki: [NM-TAFE/Isabella_Robot_Doc](https://github.com/NM-TAFE/Isabella_Robot_Doc)
+- **ARI Selfie-Cam** (Public) - Phone admin control, selfie & interview capture: [prgrobots/ARI-selfie-cam](https://github.com/prgrobots/ARI-selfie-cam)
+- **Remote Slideshow** (Public) - Pi-based remote photo display: [prgrobots/remote-slideshow](https://github.com/prgrobots/remote-slideshow)
+- **Gandalf CLI ARI** (Public) - LLM security game: [prgrobots/gandalf_cli_ari](https://github.com/prgrobots/gandalf_cli_ari)
 - **Rpi-ollama-LLM** (Private) - Live Mode implementation: [prgrobots/Rpi-ollama-LLM](https://github.com/prgrobots/Rpi-ollama-LLM)
 
 ## Support
