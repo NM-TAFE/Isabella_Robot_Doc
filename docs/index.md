@@ -1,21 +1,12 @@
 # Isabella Robot Documentation
 
-Welcome to the comprehensive documentation for the **Isabella Robot** project. This wiki provides detailed information about hardware, software architecture, setup guides, and API reference.
+## Using Isabella at an event?
+→ [Client Guide](client/index.md) — how to connect, use the admin app, take selfies, run the Gandalf game.
 
-## Quick Links
+## Developer / technical documentation
+→ [Technical Index](technical/index.md) — hardware, software, ROS, networking, custom features.
 
-- **[Getting Started](#getting-started)** - New to Isabella? Start here
-- **[Hardware](#hardware)** - Device specifications and setup
-- **[Software](#software)** - System architecture and components
-- **[Networking](#networking)** - Ports and Docker configuration
-- **[Upgrades & Migration](#upgrades--migration)** - ARI 23.12 → 25.01 upgrade guide
-
-## Getting Started
-
-Get up and running with Isabella Robot:
-
-- [Quick Start Guide](getting-started/overview.md)
-- [Testing](getting-started/test.md)
+---
 
 ## Hardware
 
