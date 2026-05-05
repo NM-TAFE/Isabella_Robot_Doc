@@ -1,6 +1,39 @@
 # ARI Documentation Index
 
-Welcome to the ARI documentation. This index provides an overview and direct links to all major sections.
+Welcome! Choose your documentation track based on your needs.
+
+## 🎯 Choose Your Documentation Track
+
+### 👤 **For Everyone: Getting Started** (Non-Technical)
+New to ARI? Start here! Learn what ARI does, explore real-world use cases, and discover our enhanced features without technical jargon.
+
+👉 **[Getting Started Documentation](./docs/getting-started/)**
+- What is ARI? (Drive, Talk, Display)
+- Real-world scenarios and use cases
+- Our added features (Selfie-Cam, Slideshow, Gandalf Game)
+- Simplified PAL docs reference
+
+**Best for**: Event organizers, educators, business users, first-time users
+
+---
+
+### 👨‍💻 **For Developers: Technical Hub** (Detailed & Advanced)
+Technical documentation, APIs, configuration, and architecture for system integration and customization.
+
+👉 **[Technical Documentation](./docs/technical/)**
+- Complete API references
+- System architecture and design
+- Configuration and tuning
+- Troubleshooting guides
+- Integration patterns
+
+**Best for**: Developers, system administrators, engineers, researchers
+
+---
+
+## 📚 Full Documentation Index
+
+### Standard ARI Features (Existing)
 
 ## Hardware Components
 - [Depth Camera](./Depth-Camera.md): Details on the RealSense D435i and T265 depth cameras used for perception and navigation.
